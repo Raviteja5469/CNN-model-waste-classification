@@ -7,13 +7,12 @@ from datetime import datetime
 import pandas as pd
 import io 
 
-# Load the model
+# Load the model the model
 @st.cache_resource
 def load_model():
     model = tf.keras.models.load_model("waste_classification_model.h5")
     model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
     return model
-
 model = load_model()
 
 # Define class labels
