@@ -34,7 +34,7 @@ with st.sidebar:
     
     with st.sidebar.expander("Model Information"):
         st.write("Model Version: 1.0")
-        st.write("Last Updated: 2024-02-07")
+        st.write("Last Updated: 2024-02-11")
         st.write("Training Accuracy: 92.47%")
         st.write("Supported Image Types: JPG, PNG, JPEG")
         
