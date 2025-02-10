@@ -47,7 +47,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     # Update "MODEL_FILE_PATH" to your actual model file
-    model = tf.keras.models.load_model(".waste_classification_model (1).h5")
+    model = tf.keras.models.load_model(".waste_classification_model.h5")
     return model
 
 model = load_model()
