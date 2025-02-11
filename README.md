@@ -5,6 +5,9 @@ A deep learning model that classifies waste images into Organic and Recyclable c
 ## Overview
 This project implements a waste classification system using Convolutional Neural Networks (CNN) and transfer learning techniques. The model achieves high accuracy by leveraging the pre-trained VGG16 network and fine-tuning it for waste classification.
 
+#Try the application first before accessing the code
+the link of site:https://waste-analyzer-novukyc46t6pdd5qrj.streamlit.app/
+
 ## Model Architecture
 - **Base Model:** VGG16 (pre-trained on ImageNet)
 - **Additional Layers:**
