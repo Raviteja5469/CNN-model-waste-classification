@@ -64,9 +64,24 @@ python train.py
 - Add real-time prediction capabilities
 - Expand to more waste categories
 
-## License
-Feel free to contribute in the project
+## 👥 Contributing
 
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Contact
+
+| Platform | Link |
+|----------|------|
+| **Author** | Raviteja |
+| **E-mail** | [Raviteja] (ravitejaseguri@gmail.com) |
+| **GitHub** | [Raviteja5469](https://github.com/Raviteja5469) |
+| **LinkedIn** | [Seguri Raviteja](https://www.linkedin.com/in/ravi-teja-61190a253) |
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
 ## Acknowledgments
 - VGG16 pre-trained model
 - Waste Classification dataset creators
