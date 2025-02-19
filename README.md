@@ -81,7 +81,7 @@ Contributions are welcome! Feel free to fork the repository, make changes, and s
 ## 📞 Contact
 | Platform  | Link |
 |-----------|------|
-| **Author** | Raviteja |
+| **Author** | Seguri Raviteja |
 | **E-mail** | [ravitejaseguri@gmail.com](mailto:ravitejaseguri@gmail.com) |
 | **GitHub** | [Raviteja5469](https://github.com/Raviteja5469) |
 | **LinkedIn** | [Seguri Raviteja](https://www.linkedin.com/in/ravi-teja-61190a253) |
