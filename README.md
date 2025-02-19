@@ -65,7 +65,7 @@ python train.py
 - Expand to more waste categories
 
 ## License
-MIT License
+Feel free to contribute in the project
 
 ## Acknowledgments
 - VGG16 pre-trained model
