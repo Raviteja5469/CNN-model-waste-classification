@@ -51,9 +51,9 @@ python train.py
 ## 📊 Model Performance
 | Metric | Accuracy |
 |--------|---------|
-| **Training Accuracy** | ~98% |
-| **Validation Accuracy** | ~97% |
-| **Test Accuracy** | ~98% |
+| **Training Accuracy** | ~95% |
+| **Validation Accuracy** | ~92% |
+| **Test Accuracy** | ~90% |
 
 ---
 
@@ -85,11 +85,6 @@ Contributions are welcome! Feel free to fork the repository, make changes, and s
 | **E-mail** | [ravitejaseguri@gmail.com](mailto:ravitejaseguri@gmail.com) |
 | **GitHub** | [Raviteja5469](https://github.com/Raviteja5469) |
 | **LinkedIn** | [Seguri Raviteja](https://www.linkedin.com/in/ravi-teja-61190a253) |
-
----
-
-## 📄 License
-This project is open-source and available under the **MIT License**.
 
 ---
 
