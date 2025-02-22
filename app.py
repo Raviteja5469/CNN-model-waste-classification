@@ -7,12 +7,13 @@ from datetime import datetime
 import pandas as pd
 import io 
 
-# Load the model the model
+# Load the model
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("waste_classification_model.h5")
+    model = tf.keras.models.load_model("waste_classification_model(4).h5")
     model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
     return model
+
 model = load_model()
 
 # Define class labels
@@ -34,7 +35,7 @@ with st.sidebar:
     
     with st.sidebar.expander("Model Information"):
         st.write("Model Version: 1.0")
-        st.write("Last Updated: 2024-02-11")
+        st.write("Last Updated: 2024-02-07")
         st.write("Training Accuracy: 92.47%")
         st.write("Supported Image Types: JPG, PNG, JPEG")
         
@@ -53,7 +54,7 @@ with st.sidebar:
         st.markdown("The model has been trained on [dataset](https://www.kaggle.com/datasets/techsash/waste-classification-data/data), and achieves an accuracy of 92% on the test set.")
         st.write("You can upload images, use the camera, and view the prediction history using the tabs below.")
 
-    st.markdown("Made by [Raviteja](www.linkedin.com/in/ravi-teja-61190a253)")
+    st.markdown("Made by [Jayendra](https://www.linkedin.com/in/voutla-jayendra-553abb313/)")
     
 # Ensure session state for camera usage
 if "camera_open" not in st.session_state:
