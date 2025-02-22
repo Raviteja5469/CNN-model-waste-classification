@@ -1,11 +1,11 @@
 # 🚀 Waste Classification using CNN with Transfer Learning
 
-## 📌 Overview
+## 📌 Overview.
 This project implements a **CNN-based waste classification model** using **Transfer Learning** with the VGG16 architecture. The model classifies waste into two categories: **Organic** and **Recyclable**, leveraging a two-phase training strategy (freeze-unfreeze).
 
 ---
 
-## 🌟 Key Features
+## 🌟 Key Features.
 - ✅ **Two-phase training strategy**: Freeze VGG16 layers initially, followed by fine-tuning the last few layers.
 - 📈 **High Performance**: Achieves up to **98% accuracy** on test data.
 - 🎨 **Extensive Data Augmentation**: Various augmentation techniques applied to improve model robustness.
@@ -13,7 +13,7 @@ This project implements a **CNN-based waste classification model** using **Trans
 
 ---
 
-## 📁 Dataset
+## 📁 Dataset.
 The **Waste Classification** dataset was sourced from Kaggle. Key details include:
 - 🗂 **Classes**: Organic and Recyclable waste.
 - 📦 **Structure**: Pre-defined training and testing splits.
@@ -21,7 +21,7 @@ The **Waste Classification** dataset was sourced from Kaggle. Key details includ
 
 ---
 
-## 🛠️ Requirements
+## 🛠️ Requirements.
 Ensure the following libraries and frameworks are installed:
 
 ```bash
@@ -30,7 +30,7 @@ tensorflow keras numpy pandas opencv-python matplotlib tqdm kagglehub
 
 ---
 
-## 🚀 Usage
+## 🚀 Usage.
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Raviteja5469/CNN-model-for-Waste-Classification.git
@@ -48,7 +48,7 @@ python train.py
 
 ---
 
-## 📊 Model Performance
+## 📊 Model Performance.
 | Metric | Accuracy |
 |--------|---------|
 | **Training Accuracy** | ~95% |
@@ -57,7 +57,7 @@ python train.py
 
 ---
 
-## 🔍 Training Strategy
+## 🔍 Training Strategy.
 1. **Initial Training**: Freeze VGG16 layers.
 2. **Fine-tuning**: Unfreeze and train the last 5 VGG16 layers.
 3. **Learning Rate Adjustment**: Reduce on plateau.
@@ -65,7 +65,7 @@ python train.py
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Improvements.
 - 🔄 Implement additional data augmentation techniques.
 - 📚 Experiment with other pre-trained models.
 - 🖥 Add real-time prediction capabilities.
@@ -73,7 +73,7 @@ python train.py
 
 ---
 
-## 👥 Contributing
+## 👥 Contributing.
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a **Pull Request**.
 
 ---
