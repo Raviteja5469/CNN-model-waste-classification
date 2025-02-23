@@ -13,7 +13,7 @@ import pathlib
 def load_model():
     # Resolve the absolute path to the model file
     code_dir = pathlib.Path(__file__).parent.resolve()
-    model_path = code_dir / "waste_classification_model(4).h5"
+    model_path = code_dir / "waste_classification_model.h5"
     try:
         model = tf.keras.models.load_model(str(model_path))
     except Exception as e:
